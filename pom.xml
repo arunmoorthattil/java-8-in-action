@@ -14,5 +14,6 @@
         <module>chapter-3-lambdas</module>
         <module>chapter-4-streams</module>
         <module>chapter-5-working-with-streams</module>
+        <module>chapter-6-collecting-data-with-streams</module>
     </modules>
 </project>
