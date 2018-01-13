@@ -1,0 +1,5 @@
+<root>
+    <item name='java.util.stream.Collectors java.util.stream.Collector&lt;java.lang.CharSequence,?,java.lang.String&gt; joining()'>
+        <annotation name='org.jetbrains.annotations.NotNull'/>
+    </item>
+</root>

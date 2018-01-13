@@ -3,10 +3,10 @@ package dish;
 public class Dish {
     private final String name;
     private final boolean vegetarian;
-    private final Integer calories;
+    private final int calories;
     private final Type type;
 
-    public Dish(String name, boolean vegetarian, Integer calories, Type type) {
+    public Dish(String name, boolean vegetarian, int calories, Type type) {
         this.name = name;
         this.vegetarian = vegetarian;
         this.calories = calories;
@@ -21,7 +21,7 @@ public class Dish {
         return vegetarian;
     }
 
-    public Integer getCalories() {
+    public int getCalories() {
         return calories;
     }
 

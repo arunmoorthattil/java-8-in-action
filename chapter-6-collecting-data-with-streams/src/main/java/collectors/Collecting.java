@@ -70,17 +70,14 @@ public class Collecting {
 
     public void summarizingInt(List<Dish> menu) {
         IntSummaryStatistics stats = menu.stream()
-                                         .collect(summarizingInt(Dish::getCalories));
+                                         .mapToInt(Dish::getCalories)
+                                         .summaryStatistics();
     }
 
     public void joiningStrings(List<Dish> menu) {
         String shortMenu = menu.stream()
                                .map(Dish::getName)
                                .collect(joining());
-        // Same as...
-        shortMenu = menu.stream()
-                        .collect(joining());
-
         // Delimited
         shortMenu = menu.stream()
                         .map(Dish::getName)
