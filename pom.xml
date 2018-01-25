@@ -17,5 +17,24 @@
         <module>chapter-6-collecting-data-with-streams</module>
         <module>chapter-7-parallel-streams</module>
         <module>chapter-8-refactoring</module>
+        <module>chapter-9-default-methods</module>
+        <module>chapter-10-optional</module>
+        <module>chapter-11-completable-future</module>
+        <module>chapter-12-date-time</module>
     </modules>
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.1</version>
+                <configuration>
+                    <source>1.8</source>
+                    <target>1.8</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+
 </project>
